@@ -114,7 +114,7 @@ Toggle2:OnChanged(function(Value)
     AutoFarmGiangho2 = Value
     if Value then
         pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/newbie0z-lol/bossprt/refs/heads/main/bossprotect.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/newbie0z-lol/boss/refs/heads/main/boss.lua"))()
         end)
     end
 end)
@@ -431,7 +431,7 @@ local Toggle3 = Tabs.Pvp:AddToggle("Script PvP", {
 Toggle3:OnChanged(function(Value)
     if Value then
         pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/newbie0z-lol/ba-san-protect/refs/heads/main/pvpprotect.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/newbie0z-lol/pvp/refs/heads/main/pvp.lua"))()
         end)
     end
 end)
@@ -458,3 +458,4 @@ corner.CornerRadius = UDim.new(0, 8)
 toggleBtn.MouseButton1Click:Connect(function()
 	Window.Instance.Visible = not Window.Instance.Visible
 end)
+-- Tìm ra scource rồi thì cũng ma phết =)) dùng vui vẻ nha , tốt bụng thì nhớ để cre --
